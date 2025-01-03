@@ -1,14 +1,15 @@
+import React, { Component } from 'react';
+import Calendar from './calender'
 
-import React from "react";
-import MyCalendar from './myCalendar'
+class App extends Component {
 
-const App = () => {
-  return (
-    <div>
-      {/* Do not remove the main div */}
-      <MyCalendar />
-    </div>
-  )
+    render() {
+        return (
+            <div>
+                <Calendar />
+            </div>
+        );
+    }
 }
 
-export default App
+export default App;
